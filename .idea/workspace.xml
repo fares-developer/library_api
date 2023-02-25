@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72bf623e-62a9-4945-b988-3ef03afbae60" name="Changes" comment="Adding Spring dependencies">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/repository/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/utils/Language.java" afterDir="false" />
+    <list default="true" id="72bf623e-62a9-4945-b988-3ef03afbae60" name="Changes" comment="test commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="features" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
   </component>
@@ -141,8 +136,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.LibraryApp" />
-        <item itemvalue="Application.LibraryApp" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.LibraryApp" />
+        <item itemvalue="Spring Boot.LibraryApp" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
