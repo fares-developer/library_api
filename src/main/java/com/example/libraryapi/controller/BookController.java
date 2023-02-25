@@ -33,17 +33,16 @@ public class BookController {
 
     //POST
     @PostMapping("/apilib/books")
-    public ResponseEntity<Book> create(@RequestBody List<Book> books) {
+    public ResponseEntity<List<Book>> createBooks(@RequestBody List<Book> books) {
         bookRepository.saveAll(books);
-        return ResponseEntity.ok().build();
+        return ResponseEntity.ok(books);
     }
 
     @PostMapping("/apilib/book")
-    public ResponseEntity<Book> create(@RequestBody Book book) {
+    public ResponseEntity<Book> createBook(@RequestBody Book book) {
         bookRepository.save(book);
         return ResponseEntity.ok(book);
     }
-
 
     //PUT
 
@@ -52,6 +51,12 @@ public class BookController {
     @DeleteMapping("/apilib/books")
     public ResponseEntity<Book> deleteAll() {
         bookRepository.deleteAll();
+        return ResponseEntity.ok().build();
+    }
+
+    @DeleteMapping("/apilib/book/{id}")
+    public ResponseEntity<Book> deleteById(@PathVariable Long id) {
+        bookRepository.deleteById(id);
         return ResponseEntity.ok().build();
     }
 }
